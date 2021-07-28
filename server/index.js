@@ -19,4 +19,6 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`);
+    console.log('');
+    console.log(`It is now safe to open http://localhost:${PORT}/ in your browser.`);
 });
