@@ -1,0 +1,28 @@
+{
+  "name": "rolling-shutter-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasMReumschuessel/rolling-shutter-control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasMReumschuessel/rolling-shutter-control/issues"
+  },
+  "homepage": "https://github.com/AndreasMReumschuessel/rolling-shutter-control#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
